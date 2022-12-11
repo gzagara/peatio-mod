@@ -19,7 +19,7 @@
 
 Peatio is a free and open-source crypto-currency exchange implementation with the Rails framework.
 This is a fork of Peatio designed for micro-services architecture. We have simplified the code
-in order to use only Peatio API with extertttnal frontend and server components.
+in order to use only Peatio API with exteertnal frontend and server components.
 
 Peatio is the core accounting component and configuration for markets; it is part of OpenDAX system.
 
