@@ -3,7 +3,7 @@ name: Build peatio Modified Version 2.6.48
 on:
   push:
     branches:
-      - 'main'
+      - 'master'
 
 jobs:
   docker:
