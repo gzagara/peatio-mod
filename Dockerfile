@@ -47,6 +47,7 @@ COPY --chown=app:app . $APP_HOME
 # Switch to application user.
 USER app
 
+
 # Initialize application configuration & assets.
 RUN echo "# This file was overridden by default during docker image build." > Gemfile.plugin \
   && ./bin/init_config \
