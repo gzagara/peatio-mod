@@ -49,6 +49,7 @@ USER app
 
 # Initialize application configuration & assets.
 RUN echo "# This file was overridden by default during docker image build." > Gemfile.plugin \
+  && chmod +x ./bin/link_config \
   && chmod +x ./bin/init_config \
   && ./bin/init_config \
   && chmod +x ./bin/logger \
